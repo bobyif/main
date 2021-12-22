@@ -1,5 +1,4 @@
-package com.company;
-import java.util.*;
+package ex02_myhai;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

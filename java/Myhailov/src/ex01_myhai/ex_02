@@ -1,0 +1,108 @@
+public class ex_1 {
+
+    public class app1 {
+        public static void main(String[] args) {
+            for (int i = 0; i <=1000 ; i++) {
+                System.out.println(i);
+
+            }
+        }
+    }
+
+    public class app2 {
+        public static void main(String[] args) {
+            for (int i = 100; i <= 500; i++) {
+                if (i % 2 == 0) {
+                    System.out.println(i);
+
+                }
+            }
+        }
+    }
+    public class app3 {
+        public static void main(String[] args) {
+            for (int i = 600; i < 900 ; i++) {
+                if( i % 2 != 0){
+                    System.out.println(i);
+
+                }
+            }
+        }
+    }
+    public class app4 {
+        public static void main(String[] args) {
+            for (int i = 500; i < 1000 ; i++) {
+                if(i % 10 == 9){
+                    System.out.println(i);
+                }
+
+            }
+        }
+    }
+    public class app5 {
+        public static void main(String[] args) {
+            for (char i = 'A'; i <= 'Z' ; i++) {
+                System.out.println(i);
+
+            }
+        }
+    }
+            import java.util.Scanner;
+
+    public class app6 {
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            int n = scan.nextInt();
+            int sum = 0;
+            for (int i = 1; i <= n ; i++) {
+                int number = scan.nextInt();
+                sum += number;
+
+            }
+            System.out.println(sum);
+        }
+
+    }
+            import java.util.Scanner;
+
+    public class app7 {
+        public static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("n = ");
+            int n = scan.nextInt();
+            System.out.println("Ваведете число : ");
+            int max = Integer.MIN_VALUE;
+            for (int i = 0; i <= n ; i++) {
+                int num = scan.nextInt();
+
+                if (num > max){
+                    max = num ;
+
+                }
+            }
+            System.out.println( "Най-голямо число : " + max );
+        }
+
+    }
+            import java.util.Scanner;
+
+    public class app8 {
+        public static void main(String[] args) {
+            Scanner  scan = new Scanner(System.in);
+            System.out.print("n = ");
+            int n = scan.nextInt();
+            System.out.println( "Въведете число : ");
+            int min = Integer.MAX_VALUE;
+            for (int i = 1; i <= n ; i++) {
+                int number = scan.nextInt();
+                if (number < min ){
+                    min = number;
+
+                }
+
+            }
+            System.out.println("Най-малко число : " +min);
+
+        }
+    }
+}

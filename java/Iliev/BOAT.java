@@ -1,4 +1,4 @@
-package com.company;
+package ex02_myhai;
 
 public class BOAT {
 
